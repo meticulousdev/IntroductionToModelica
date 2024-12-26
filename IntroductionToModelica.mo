@@ -1,10 +1,10 @@
 package IntroductionToModelica
-    model Variables
-    Real x;
-    Real y;
+  model Variables
+  Real x;
+  Real y;
   equation
-    y = x + time;
-    x*x - 4 = 0;
+  y = x + time;
+  x*x - 4 = 0;
   end Variables;
 
   model Derivatives
